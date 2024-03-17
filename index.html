@@ -18,7 +18,7 @@
             <div class="card fan">
                 <div class="card-heading">Fan</div>
                 <div class="card-description">Control the speed of the fan.</div>
-                <img src="./assets/Fan.png" alt="">
+                <img src="./assets/fan-still.png" alt="">
                 <div class="control">
                     <div class="cont-heading"> Speed</div>
                     <input type="text" value="0">
@@ -27,10 +27,10 @@
             <div class="card bulb">
                 <div class="card-heading">Bulb</div>
                 <div class="card-description">Turn the bulb on or off</div>
-                <img src="./assets/bulb.png" alt="">
+                <img id="bulb-img" src="./assets/off-bulb.png" alt="">
                 <div class="control">
                     <div class="cont-heading"> State</div>
-                    <input type="text" value="Off">
+                    <input id="bulb-state" type="text" value="Off">
                 </div>
             </div>
             <div class="card led">
@@ -39,7 +39,10 @@
                 <img src="./assets/LEd.png" alt="">
                 <div class="control">
                     <div class="cont-heading"> Colour</div>
-                    <input type="text" value="#ffffff">
+                    <input type="text" value="#ffffff" id="colorInput">
+                </div>
+                <div id="led-light">
+
                 </div>
             </div>
             <div class="card ac">
@@ -52,10 +55,13 @@
                 </div>
                 <div class="control">
                     <div class="cont-heading"> Temperature</div>
-                    <input  type="text" value="23">
+                    <input type="text" value="23">
                 </div>
             </div>
         </div>
+        <button id="colorDisplay">
+            Apply
+        </button>
     </div>
     <script src="./app.js"></script>
 </body>
