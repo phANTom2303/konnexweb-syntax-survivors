@@ -36,7 +36,8 @@ body {
 
 .card {
     border: solid 2px #E5E7EB;
-    width: 300px;
+    /* width: 300px; */
+    width: 10rem;
     height: 400px;
     background-color: white;
     border-radius: 20px;
