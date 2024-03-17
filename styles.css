@@ -54,6 +54,7 @@ body {
     padding: 40px;
     background-color: #525252;
     border-radius: 20px;
+    border: dotted 1px #525252;
 }
 
 img {
@@ -99,6 +100,18 @@ input {
     width: 50%;
 }
 
+#acStateLight{
+    background-color: #db5a5a;
+}
+
+#acStateLight .cont-heading{
+    color: whitesmoke;
+}
+#ac-state{
+    background-color: #db5a5a;
+    color: white;
+}
+
 button{
     width: 10%;
     margin: auto;
@@ -111,4 +124,11 @@ button{
 
 button:hover {
     background-color:  #bdbdbf;
+}
+
+#acTempValue{
+    background-color: #FFA500;
+}
+#acTempIndicator{
+    background-color: #FFA500;
 }

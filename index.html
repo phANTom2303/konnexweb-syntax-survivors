@@ -18,10 +18,10 @@
             <div class="card fan">
                 <div class="card-heading">Fan</div>
                 <div class="card-description">Control the speed of the fan.</div>
-                <img src="./assets/fan-still.png" alt="">
+                <img id="fan-img" src="./assets/fan-still.png" alt="">
                 <div class="control">
                     <div class="cont-heading"> Speed</div>
-                    <input type="text" value="0">
+                    <input id = "fan-state" type="text" value="0">
                 </div>
             </div>
             <div class="card bulb">
@@ -49,13 +49,13 @@
                 <div class="card-heading">AC</div>
                 <div class="card-description"> Controls the temperature</div>
                 <img src="./assets/ac.png" alt="">
-                <div class="control">
-                    <div class="cont-heading"> State</div>
-                    <input type="text" value="Off">
+                <div class="control" id="acStateLight">
+                    <div class="cont-heading"  > State</div>
+                    <input type="text" value="Off" id="ac-state">
                 </div>
-                <div class="control">
-                    <div class="cont-heading"> Temperature</div>
-                    <input type="text" value="23">
+                <div class="control" id="acTempIndicator">
+                    <div class="cont-heading" > Temperature</div>
+                    <input type="text" value="23" id="acTempValue">
                 </div>
             </div>
         </div>
